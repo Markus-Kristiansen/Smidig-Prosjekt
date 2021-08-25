@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "mongodb": "^3.6.9",
+    "vue": "^2.6.12"
+  },
+  "name": "bright-vue",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "cd vue && npm run serve",
+    "prestart": "cd vue && npm run build",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrageSvensli/bright-vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrageSvensli/bright-vue/issues"
+  },
+  "homepage": "https://github.com/BrageSvensli/bright-vue#readme",
+  "description": ""
+}
